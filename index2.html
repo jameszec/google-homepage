@@ -1,0 +1,71 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head> 
+<style>
+   .header {
+       background-color: white;
+       grid-area: header;
+
+   }
+   .logo {
+       background-color: white;
+       grid-area: logo;
+   }
+   .search {
+       bacground-color: white;
+       grid-area: search;
+
+   }
+   
+   .button {
+       bacground-color: white;
+       grid-area: button;
+
+   }
+   .footer {
+       bacground-color: gray;
+       grid-area: footer;
+
+   }
+   .container {
+       background-color: gray;
+       width: 100%;
+       height: 100%;
+       display: grid;
+       grid-template-areas:
+            header;
+            logo;
+            search;
+            button;
+            footer;
+        grid-template-rows: 50px 10fr 1fr 10fr 50px;
+            
+   }
+</style>    
+</head>
+<div class="container">
+    <div class="header">header</div>
+    <div class="logo">advert</div>
+    <div class="search">content</div>
+    <div class="button">footer</div>
+    <div class="footer">footer</div>
+  </div>
+<!--body>
+    <ul>
+        <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+        <li><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
+        <li><a href="https://www.gmail.com">Gmail</a></li>
+        <li><a href="https://www.google.com/imghp?hl=en&authuser=0&ogbl">Images</a></li>
+    </ul>
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    <input type="text">
+    <button type="submit">Google Search</button>
+    <button type="submit">I'm Feeling Lucky</button>
+</body-->
+
+</html>
